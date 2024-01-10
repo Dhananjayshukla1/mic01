@@ -5,7 +5,7 @@ async function  showWeather(){
         const lat=30.6510;
         let lon=76.3293;
            
-        const response= await fetch(`https://api.openweatherp.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${API_key}`);
+        const response= await fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${API_key}`);
         let data=await response.json();
         console.log(data);
         let newPara=document.createElement('p');
