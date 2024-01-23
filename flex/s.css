@@ -1,6 +1,6 @@
 .container{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     /* flex-flow: row wrap ; */
     justify-content:center;
     /* justify-content: space-around; */
@@ -29,18 +29,23 @@
 }
 
 #box1{
-    /* order: 5; */
+    flex-shrink: 5;
+    order: 1;
 }
 #box2{
-
-    flex-grow: 1;
-    /* order: 2; */
+    flex-shrink: 1;
+    /* flex-grow: 1; */
+    order: 2;
 }
 #box3{
-    /* order: 5; */
+    order: 3;
+    flex-shrink: 4;
+    /* flex-grow: 1; */
 }
 #box4{ 
-    /* order: 5; */
+    flex-shrink: 1;
+    /* flex-grow: 1; */
+    order: 5;
 
 }
 
@@ -53,14 +58,4 @@
 
 
 
-h1{
-    
-    /* font-size: 40px; */
-}
-h2{
-    /* font-size: 15px; */
-}
-h3{
-    
-    /* font-size: 90px; */
-}
+
