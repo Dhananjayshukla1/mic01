@@ -12,7 +12,7 @@
     /* width: 1500px; */
   /* align-items: center; */
   /* align-items: baseline; */
-  /* align-items: center; */
+  align-items: center;
   /* align-content: center; */
   align-content: start;
   /* gap: 10px; */
@@ -22,30 +22,31 @@
 
 .box{
     /* margin:  10px; */
-    width: 100px;
+    /* width: 100px; */
+    flex-basis: 100px;
     /* height: 25px; */
     border: 2px  solid rgb(246, 210, 32);
     /* flex-grow: 1; */
 }
 
 #box1{
-    flex-shrink: 5;
-    order: 1;
+    /* flex-shrink: 5; */
+    /* order: 1; */
 }
 #box2{
-    flex-shrink: 1;
+    /* flex-shrink: 1; */
     /* flex-grow: 1; */
-    order: 2;
+    /* order: 2; */
 }
 #box3{
-    order: 3;
-    flex-shrink: 4;
+    /* order: 3; */
+    /* flex-shrink: 4; */
     /* flex-grow: 1; */
 }
 #box4{ 
-    flex-shrink: 1;
+    /* flex-shrink: 1; */
     /* flex-grow: 1; */
-    order: 5;
+    /* order: 5; */
 
 }
 
