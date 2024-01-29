@@ -1,5 +1,5 @@
 *{ margin: 0;
-margin-left: 0%;    padding: 0;
+   padding: 0;
     box-sizing: border-box;
 }
 #wrapper{
@@ -13,8 +13,7 @@ margin-left: 0%;    padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    transform-style: 
-    preserve-3d;
+    transform-style: preserve-3d;
     height: 100%;
     z-index: -1;
 }
@@ -23,16 +22,22 @@ margin-left: 0%;    padding: 0;
     height: 100%;
     width: 100%;
     z-index: -1;
+    object-fit:cover;
 }
 .foreground{
-    transform: translatez(-20px) scale(3.3);
+    transform: translatez(-20px) scale(3);
 }
 .background{
     transform: translatez(-40px) scale(5.1);
 }
 
-/* h1{ margin-top: 0px;
-    padding-top: 10px;
-    font-size: 150px;
-    z-index: 1;
-} */
+h1{ 
+   text-transform: uppercase;
+   position:absolute;
+   top: 5rem;
+   
+   font-size: 10rem;
+   color:white;
+   text-shadow: 0 0 10px rgba(0,0,0,0.3);
+
+}
